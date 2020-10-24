@@ -90,7 +90,7 @@ let commit = {
 
 let addRemote = {
     description : `quite honestly wasn't sure on the definition for this one, but looking it up I found that it is a way to "Manage the set of repositories whose branches you track", need to play around with this more`,
-    code : 'git remote'
+    code : 'git remote add origin'
 }
 
 //////////////////PROBLEM 9////////////////////
