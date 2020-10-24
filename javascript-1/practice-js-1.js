@@ -260,9 +260,7 @@ function carFactory(make, model, year){
 
 
 let mazda = carFactory('Honda', 'Accord', 2016)
-mazda.isNew = false;
-
-console.log(mazda)
+mazda.isNew = mazda.year <= 2018 ? false : true;
 
 
 

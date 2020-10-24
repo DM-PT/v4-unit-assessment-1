@@ -9,7 +9,7 @@
     It should be a string containing your best definition of what Git is.
 */
 
-//CODE HERE
+let gitDefinition= 'A set of processes that helps track our code and give us reference points.'
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +17,7 @@
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+let gitHubDefinition= 'GitHub is like an online storage center for us to reference code of ours and others, and is utilized in team projects because of this'
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -33,7 +33,10 @@
     following the guidelines above to describe the init command.
 */
 
-//CODE HERE
+let init = {
+    description: "this initializes the project you are working on and enables you to use git commands on the project",
+    code: 'git init'
+}
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -41,7 +44,10 @@
     following the guidelines above to describe the clone command.
 */
 
-//CODE HERE
+let clone = {
+    description: 'This is what we use to clone down a repository to our computer from git once we have forked it, not sure of all the possibilities of using it, but that is mostly what I have used it for',
+    code: 'git clone'
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -49,7 +55,10 @@
     following the guidelines above to describe the status command.
 */
 
-//CODE HERE
+let status = {
+    description: 'shows the status of the project, as in the changes made and what is ready to commit',
+    code: 'git status'
+}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -57,7 +66,10 @@
     following the guidelines above to describe the add command.
 */
 
-//CODE HERE
+let add = {
+    description : 'this will add in the changes you have made to the current process, kind like save as, and commit adds the name of the save',
+    code : 'git add (specify what or put . if everything)'
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -65,7 +77,10 @@
     following the guidelines above to describe the commit command.
 */
 
-//CODE HERE
+let commit = {
+    description : 'Kinda already gave an example, but this will be the label of the changes you have made to project right before you push it into github, this helps with tracking and referencing what you have been working on',
+    code : `git commit -m "this is an example"`
+}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,7 +88,10 @@
     following the guidelines above to describe the command to add a remote location to your git repository.
 */
 
-//CODE HERE
+let addRemote = {
+    description : `quite honestly wasn't sure on the definition for this one, but looking it up I found that it is a way to "Manage the set of repositories whose branches you track", need to play around with this more`,
+    code : 'git remote'
+}
 
 //////////////////PROBLEM 9////////////////////
 /*
@@ -81,4 +99,7 @@
     following the guidelines above to describe the push command.
 */
 
-//CODE HERE
+let push = {
+    description : 'this with send the committed code to github and make it the master copy, this can only be done after git add and commit',
+    code : 'git push'
+}
