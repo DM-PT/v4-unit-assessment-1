@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    margin: 0%;
+    height: 100px;
+    width: 100%;
+    padding-left: 20px;
+    font-size: 35px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+p {
+    padding-left: 10px;
+    font-size: 24.5px;
+    font-weight: bold;
+}
+
+.dotted-boxes {
+    margin: 5px;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 10px;
+    height: 250px;
+    width: 100%;
+    border: purple;
+    border-style: dotted;
+}
+
+.purple-one {
+    margin-right: 30px;
+    padding: 12px;
+    height: 111px;
+    width: 28%;
+    display: flex;
+    background-color: rebeccapurple;
+    border: red;
+    border-style: solid;
+}
+
+.blue-one {
+    margin-right: 30px;
+    height: 111px;
+    width: 16%;
+    background: blue;
+    box-shadow: 5px 7px 8px black;
+
+}
+
+.pink-one {
+    height: 200px;
+    width: 28%;
+    background: hotpink;
+    border: black;
+    border-style: solid;
+}
+
+.circles {
+    margin: 5px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    padding-left: 10px;
+    height: 500px;
+    width: 100%;
+    border: purple;
+    border-style: dotted;
+}
+
+.small-one {
+    margin : 0;
+    height: 80px;
+  width: 80px;
+  border: black;
+  border-radius: 50%;
+  border-style: solid;
+}
+
+.medium-one {
+    margin : 0;
+    height: 120px;
+    width: 120px;
+    border: black;
+    border-radius: 50%;
+    border-style: solid;
+
+}
+
+.big-one {
+    margin : 0;
+    height: 160px;
+    width: 160px;
+    border: black;
+    border-radius: 50%;
+    border-style: solid;
+
+}
