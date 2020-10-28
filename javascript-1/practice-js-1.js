@@ -159,13 +159,22 @@ function bigOrSmall(arr){
   
 // }
 
+// function arrayReverser(arr){
+// 	reversed = [];{
+// 	for(let i = 0; i >= 0; i--){
+// 		reversed.push(3, 2, 1)}
+// 	}
+// 	return reversed;
+// }
 function arrayReverser(arr){
-	reversed = [];{
-	for(let i = 0; i >= 0; i--){
-		reversed.push(3, 2, 1)}
-	}
-	return reversed;
+  let reversed = [];
+  for(let i = arr.length - 1; i >= 0; i--){
+      reversed.push(arr[i])
+  }
+  return reversed
 }
+
+arrayReverser(users)
 //////////////////PROBLEM 14////////////////////
 
 let global = 'cool string'
